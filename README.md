@@ -1,7 +1,6 @@
+Arduino + SENSROS(Moisture, LM35, HC-SR04 Ultrasonic distance sensor)
 
-The projects consists of ino files covering sensors such as
-LM35, DHT -- Temperature,
-Soil moisture sensor- Soil level both Analog and Digital
-Parking Sensor(HC-SR04), with RGB LEDs
-Water Flow Sensor to calculate total consumption of water, 
-Relay connection with PWM mode.
+1. You will get to know Arduino ino files here to solve some of environmental & civic issues.
+2. Finding my total capacity of any tank(water overhead,cylinder, gas etc).or Height of a person too :-P
+3. Know the moisture in soil and water plants.Can be used to segreagte waste according to Wet or Dry also.
+4. Know the temperature and automatically switch of devices using LM35(Coordior light controller in my appartments)
