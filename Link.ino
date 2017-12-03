@@ -2,6 +2,7 @@
 
 /*
   Turns on an LED on for one second, then off for one second, repeatedly.
+  and prints Hello World in Serial monitor.
 */
 
 void setup()
