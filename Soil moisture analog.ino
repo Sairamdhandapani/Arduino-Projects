@@ -1,5 +1,6 @@
+/*Higher the voltage value Soil is Dry and Lower the voltage Soil is Wet.*/
 int sensor_pin = A0;
-//int output_value ;
+
 void setup()
 {
 
@@ -12,17 +13,17 @@ void setup()
 void loop()
 {
   int value = analogRead(sensor_pin);
-  //value = value / 10;
+ 
   Serial.println(value);
   if ( value < 400)
   {
-    Serial.println("turn off pump");
+    Serial.println("Wet Soil");
     digitalWrite (13, LOW);
     delay(2000);
   }
   else
   {
-    Serial.println("turn on pump");
+    Serial.println("Dry soil");
     digitalWrite (13, HIGH);
     delay(2000);
   }
